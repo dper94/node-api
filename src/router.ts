@@ -6,7 +6,9 @@ const router = Router();
  * Product
  */
 
-router.get("/products", () => {});
+router.get("/products", (req, res) => {
+	res.status(200).json({ message: "Hello from products!" });
+});
 router.get("/products/:id", () => {});
 router.put("/products/:id", () => {});
 router.post("/products", () => {});
