@@ -2,10 +2,6 @@
 
 This is a CRUD API built with Node.js and Express. It allows users to create projects, add updates to those projects, and add update points to the updates.
 
-## Project Structure
-
-.env .gitignore index.ts package.json prisma/ migrations/ 20250105002448_init/ migration.sql migration_lock.toml schema.prisma src/ router.ts server.ts
-
 ## Installation
 
 1. Clone the repository:
